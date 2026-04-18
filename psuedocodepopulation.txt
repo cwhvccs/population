@@ -1,0 +1,30 @@
+Display "Enter the starting number of organisms:"
+Input startingPopulation
+
+While startingPopulation is less than 2
+ Display "Starting population must be at least 2. Try again:"
+ Input startingPopulation
+
+Display "Enter the average daily population increase (in %):"
+Input dailyIncrease
+
+While dailyIncrease is less than 0
+ Display "Percentage cannot be negative. Try again:"
+ Input dailyIncrease
+
+Display "Enter the number of days they will multiply:"
+Input days
+
+While days is less than 1
+ Display "Days must be at least 1. Try again:"
+ Input days
+
+Set population equal to startingPopulation
+
+Display "Day Population"
+
+For day from 1 to days
+ Display day and population
+ Increase population by population multiplied by (dailyIncrease divided by 100)
+
+Stop program
