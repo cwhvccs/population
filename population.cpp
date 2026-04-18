@@ -1,3 +1,8 @@
+/*Program file name: Population.cpp
+Programer: Christopher Hicks
+Date: 4/26
+Requirements: Write a program that predicts the population of organisms given the starting number, average daily population increase, and number of days.*/
+
 #include <iostream>
 using namespace std;
 
